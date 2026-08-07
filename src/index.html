@@ -4,77 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Primary Meta Tags -->
-    <title>Portfolio Template - Open source</title>
-    <meta name="title" content="Portfolio Template - Open source" />
+    <meta name="theme-color" content="#081a2f" />
+
+    <title>Yunus Ozdemir | Backend Developer</title>
+    <meta name="title" content="Yunus Ozdemir | Backend Developer" />
     <meta
       name="description"
-      content="Build or customize your portfolio website using this super easy template. Free to use if you are a member of the community or a contributor to this project"
+      content="Portfolio of Yunus Ozdemir, a Software Development Specialist and Azure Developer Associate focused on scalable .NET backends, microservices, and cloud-native systems."
     />
-
-    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta
-      property="og:url"
-      content="https://github.com/CommunityPro/portfolio-html"
-    />
-    <meta property="og:title" content="Portfolio Template - Open source" />
+    <meta property="og:title" content="Yunus Ozdemir | Backend Developer" />
     <meta
       property="og:description"
-      content="Build or customize your portfolio website using this super easy template. Free to use if you are a member of the community or a contributor to this project"
+      content="Software Development Specialist building scalable .NET backends, microservices, and cloud-native systems."
     />
-    <meta
-      property="og:image"
-      content="https://user-images.githubusercontent.com/62628408/150613011-b78a7f5a-0af1-4312-aab0-0022e7258693.png"
-    />
-
-    <!-- Twitter -->
+    <meta property="og:image" content="assets/profile-image.svg?v=2" />
     <meta property="twitter:card" content="summary_large_image" />
-    <meta
-      property="twitter:url"
-      content="https://github.com/CommunityPro/portfolio-html"
-    />
-    <meta property="twitter:title" content="Portfolio Template - Open source" />
+    <meta property="twitter:title" content="Yunus Ozdemir | Backend Developer" />
     <meta
       property="twitter:description"
-      content="Build or customize your portfolio website using this super easy template. Free to use if you are a member of the community or a contributor to this project"
+      content="Software Development Specialist building scalable .NET backends, microservices, and cloud-native systems."
     />
-    <meta
-      property="twitter:image"
-      content="https://user-images.githubusercontent.com/62628408/150613011-b78a7f5a-0af1-4312-aab0-0022e7258693.png"
-    />
+    <meta property="twitter:image" content="assets/profile-image.svg?v=2" />
 
-    <!-- Link -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/assets/favicon/favicon-16x16.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="assets/favicon/android-chrome-192x192.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="512x512"
-      href="assets/favicon/android-chrome-512x512.png"
-    />
-    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
     <link rel="manifest" href="assets/favicon/site.webmanifest" />
     <link
       rel="stylesheet"
@@ -86,212 +41,471 @@
     <link rel="stylesheet" href="css/utilities.css" />
   </head>
   <body>
-    <header id="hero">
-      <!-- Navbar -->
-      <nav class="navbar">
-        <div class="container">
-          <!-- Logo -->
-          <h1 id="logo">
-            <a href="https://github.com/CommunityPro/portfolio-html"
-              ><img src="./assets/logo.png" alt="Your Logo"
-            /></a>
-          </h1>
-          <!-- Navbar links -->
-          <ul class="nav-menu">
-            <li><a class="nav-link" href="#projects">PROJECTS</a></li>
-            <li><a class="nav-link" href="#">CONTACT</a></li>
-            <li><a class="nav-link" href="#">BlOG</a></li>
-            <li>
-              <a
-                class="nav-link btn btn-primary"
-                href="https://github.com/CommunityPro/portfolio-html"
-                >RESUME <i class="fas fa-arrow-right"></i
-              ></a>
-            </li>
+    <a class="skip-link" href="#main-content" data-en="Skip to content" data-tr="İçeriğe geç">Skip to content</a>
 
-            <!-- Toggle switch -->
-            <div class="theme-switch">
-              <input type="checkbox" id="switch" />
-              <label class="toggle-icons" for="switch">
-                <img class="moon" src="assets/moon.svg" />
-                <img class="sun" src="assets/sun.svg" />
-              </label>
-            </div>
-            <!-- Hamburger menu -->
+    <header id="hero">
+      <nav class="navbar" aria-label="Main navigation">
+        <div class="container nav-container">
+          <a class="wordmark" href="#hero" aria-label="Yunus Ozdemir home">
+            <span class="wordmark-mark">YÖ</span>
+            <span class="wordmark-name">Yunus Ozdemir</span>
+          </a>
+
+          <ul class="nav-menu">
+            <li><a class="nav-link" href="#about" data-en="About" data-tr="Hakkımda">About</a></li>
+            <li><a class="nav-link" href="#experience" data-en="Experience" data-tr="Deneyim">Experience</a></li>
+            <li><a class="nav-link" href="#projects" data-en="Projects" data-tr="Projeler">Projects</a></li>
+            <li><a class="nav-link" href="#contact" data-en="Contact" data-tr="İletişim">Contact</a></li>
+            <li>
+              <a class="nav-link resume-link" href="assets/Yunus_Ozdemir_Resume.pdf" target="_blank" rel="noopener">
+                <span data-en="Resume" data-tr="CV">Resume</span>
+                <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="nav-controls">
+              <div class="language-switch" role="group" aria-label="Language selection">
+                <button class="language-option active" type="button" data-lang="en" aria-pressed="true">EN</button>
+                <span aria-hidden="true">/</span>
+                <button class="language-option" type="button" data-lang="tr" aria-pressed="false">TR</button>
+              </div>
+
+              <div class="theme-switch">
+                <input type="checkbox" id="switch" aria-label="Toggle dark theme" />
+                <label class="toggle-icons" for="switch">
+                  <img class="moon" src="assets/moon.svg" alt="" />
+                  <img class="sun" src="assets/sun.svg" alt="" />
+                </label>
+              </div>
+            </li>
           </ul>
-          <div class="hamburger">
+
+          <button class="hamburger" type="button" aria-label="Open menu" aria-expanded="false">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
-          </div>
+          </button>
         </div>
       </nav>
 
-      <section class="header-container">
-        <img
-          class="profile-image"
-          src="assets/profile-image.svg"
-          alt=""
-        />
-        <h1>Hi I'm Franklin</h1>
-
-        <div class="content-text">
-          <h2>Building digital</h2>
-          <h2>products, brands, and experience.</h2>
-
-          <p>
-            A Frontend Developer and Visual Designer with experience in web
-            design, brand identity and product design.
+      <section class="hero-container container">
+        <div class="hero-copy">
+          <p class="eyebrow" data-en="Hello, I'm Yunus." data-tr="Merhaba, ben Yunus.">Hello, I'm Yunus.</p>
+          <h1>
+            <span data-en="I build reliable" data-tr="Güvenilir">I build reliable</span>
+            <span class="accent-text" data-en="backend systems." data-tr="backend sistemleri geliştiriyorum.">backend systems.</span>
+          </h1>
+          <p
+            class="hero-description"
+            data-en="Mid-level Software Development Specialist and Azure Developer Associate focused on clean, scalable .NET solutions, microservices, and RESTful APIs."
+            data-tr="Temiz ve ölçeklenebilir .NET çözümleri, mikroservisler ve RESTful API'ler üzerine çalışan orta seviye Yazılım Geliştirme Uzmanı ve Azure Developer Associate."
+          >
+            Mid-level Software Development Specialist and Azure Developer Associate focused on clean, scalable .NET solutions, microservices, and RESTful APIs.
           </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">
+              <span data-en="Explore my work" data-tr="Projelerimi incele">Explore my work</span>
+              <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+            <a class="btn btn-ghost" href="mailto:yunusozdemir468@gmail.com">
+              <span data-en="Get in touch" data-tr="İletişime geç">Get in touch</span>
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <span><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Istanbul, Turkey</span>
+            <span><i class="fas fa-language" aria-hidden="true"></i> Türkçe · English (B2)</span>
+          </div>
         </div>
-        <a
-          href="https://github.com/CommunityPro/portfolio-html"
-          class="btn btn-secondary"
-          target="_blank"
-          >Connect With Me</a
-        >
+
+        <div class="hero-visual">
+          <div class="portrait-frame">
+            <div class="portrait-glow"></div>
+            <img class="profile-image" src="assets/profile-image.svg?v=2" alt="Yunus Ozdemir profile placeholder" />
+            <span class="availability-dot" aria-hidden="true"></span>
+          </div>
+          <div class="code-card" aria-hidden="true">
+            <span class="code-dots"><i></i><i></i><i></i></span>
+            <code><span>public</span> Task&lt;Solution&gt; BuildAsync()</code>
+            <code>{</code>
+            <code>&nbsp;&nbsp;<span>return</span> Clean.Scalable.Reliable();</code>
+            <code>}</code>
+          </div>
+        </div>
       </section>
     </header>
 
-    <!-- Projects -->
-    <section id="projects" class="project-container container">
-      <div class="division"></div>
-      <div class="content-text">
-        <h2>Projects</h2>
-        <p>Check out some of my personal and paid projects</p>
-      </div>
+    <main id="main-content">
+      <section id="about" class="section container">
+        <div class="section-heading">
+          <p class="section-kicker">01 — <span data-en="About" data-tr="Hakkımda">About</span></p>
+          <h2 data-en="Curious by nature. Practical by design." data-tr="Doğası gereği meraklı, yaklaşımıyla çözüm odaklı.">Curious by nature. Practical by design.</h2>
+        </div>
 
-      <article class="project">
-        <!-- Project 1 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Project One</h3>
-              <p>React, Redux, SASS</p>
+        <div class="about-grid">
+          <div class="about-copy">
+            <p
+              data-en="I'm a backend developer who enjoys turning complex requirements into clean, efficient, and maintainable systems within the .NET ecosystem. My core focus is RESTful API development, and I continuously refine both my code and the way I approach problems."
+              data-tr="Karmaşık ihtiyaçları .NET ekosistemi içinde temiz, verimli ve sürdürülebilir sistemlere dönüştürmekten keyif alan bir backend geliştiriciyim. Temel odağım RESTful API geliştirme; hem kodumu hem de problemlere yaklaşım biçimimi sürekli iyileştiriyorum."
+            >
+              I'm a backend developer who enjoys turning complex requirements into clean, efficient, and maintainable systems within the .NET ecosystem. My core focus is RESTful API development, and I continuously refine both my code and the way I approach problems.
+            </p>
+            <p
+              data-en="What motivates me most is discovering new technologies and applying them to real-world products. I enjoy exploring .NET internals and experimenting with tools such as GitHub Copilot and Docker. I have also independently learned AWS EC2, Docker, and Jenkins to understand how they can make software delivery more effective."
+              data-tr="Beni en çok motive eden şey, yeni teknolojiler keşfetmek ve bunları gerçek ürünlerde uygulamak. .NET'in iç yapısını incelemekten, GitHub Copilot ve Docker gibi araçları deneyimlemekten keyif alıyorum. Yazılım teslim süreçlerini nasıl daha etkili hale getirebileceklerini anlamak için AWS EC2, Docker ve Jenkins'i de kendi çabamla öğrendim."
+            >
+              What motivates me most is discovering new technologies and applying them to real-world products. I enjoy exploring .NET internals and experimenting with tools such as GitHub Copilot and Docker. I have also independently learned AWS EC2, Docker, and Jenkins to understand how they can make software delivery more effective.
+            </p>
+            <p
+              data-en="Across the software lifecycle, I have built features, resolved production issues, tested, deployed, and maintained applications. I have published a technical article on Medium and create content around what I learn because I see sharing as part of professional growth. Clear communication, constructive feedback, and supportive teamwork are central to how I work."
+              data-tr="Yazılım yaşam döngüsünün farklı aşamalarında özellik geliştirme, üretim sorunlarını çözme, test, yayınlama ve uygulama bakımı görevleri üstlendim. Paylaşmayı profesyonel gelişimin bir parçası olarak gördüğüm için Medium'da teknik bir makale yayımladım ve öğrendiklerim üzerine içerik üretmeye başladım. Açık iletişim, yapıcı geri bildirim ve destekleyici ekip çalışması çalışma kültürümün temelini oluşturuyor."
+            >
+              Across the software lifecycle, I have built features, resolved production issues, tested, deployed, and maintained applications. I have published a technical article on Medium and create content around what I learn because I see sharing as part of professional growth. Clear communication, constructive feedback, and supportive teamwork are central to how I work.
+            </p>
+          </div>
+
+          <div class="facts-grid">
+            <article class="fact-card">
+              <strong>6+</strong>
+              <span data-en="Years in backend development" data-tr="Yıllık backend deneyimi">Years in backend development</span>
+            </article>
+            <article class="fact-card">
+              <strong>12</strong>
+              <span data-en="Selected products and projects" data-tr="Seçili ürün ve proje">Selected products and projects</span>
+            </article>
+            <article class="fact-card">
+              <strong>.NET</strong>
+              <span data-en="Primary technology ecosystem" data-tr="Ana teknoloji ekosistemi">Primary technology ecosystem</span>
+            </article>
+            <article class="fact-card">
+              <strong>Azure</strong>
+              <span data-en="Developer Associate" data-tr="Developer Associate">Developer Associate</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section section-tinted">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">02 — <span data-en="Experience" data-tr="Deneyim">Experience</span></p>
+            <h2 data-en="From APIs to production systems." data-tr="API'lerden canlı sistemlere.">From APIs to production systems.</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-meta">
+                <span>Aug 2022 — <span data-en="Present" data-tr="Günümüz">Present</span></span>
+                <span>Istanbul</span>
+              </div>
+              <div class="timeline-content">
+                <div class="role-heading">
+                  <div>
+                    <h3>MagiClick</h3>
+                    <p data-en="Software Development Specialist" data-tr="Yazılım Geliştirme Uzmanı">Software Development Specialist</p>
+                  </div>
+                  <span class="role-duration" data-en="4+ years" data-tr="4+ yıl">4+ years</span>
+                </div>
+                <div class="experience-block">
+                  <h4><a href="https://www.ikea.com.tr/" target="_blank" rel="noopener">IKEA <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></h4>
+                  <p
+                    data-en="Supported the IKEA project and played a key role in evolving the application from a monolithic architecture toward microservices. Worked closely with the IKEA team to maintain continuous communication and ensure a smooth implementation."
+                    data-tr="IKEA projesine destek verdim ve uygulamanın monolitik mimariden mikroservis tabanlı bir yapıya dönüşümünde önemli rol üstlendim. Kesintisiz iletişim ve sorunsuz uygulama için IKEA ekibiyle yakın çalıştım."
+                  >Supported the IKEA project and played a key role in evolving the application from a monolithic architecture toward microservices. Worked closely with the IKEA team to maintain continuous communication and ensure a smooth implementation.</p>
+                  <ul class="detail-list">
+                    <li data-en="Enabled asynchronous communication between microservices with RabbitMQ." data-tr="RabbitMQ ile mikroservisler arasında asenkron iletişim sağladım.">Enabled asynchronous communication between microservices with RabbitMQ.</li>
+                    <li data-en="Maintained clean and secure coding standards, reviewed code, and reinforced best practices in pull requests." data-tr="Temiz ve güvenli kod standartlarını korudum; kod incelemeleri yaparak pull request'lerde iyi uygulamaların sürdürülmesini sağladım.">Maintained clean and secure coding standards, reviewed code, and reinforced best practices in pull requests.</li>
+                  </ul>
+                  <div class="tag-list" aria-label="IKEA technologies">
+                    <span>Microservices</span><span>xUnit</span><span>Moq</span><span>Azure DevOps</span><span>RabbitMQ</span><span>Elasticsearch</span><span>NHibernate</span><span>Docker</span><span>Azure Pipelines</span><span>MediatR</span><span>SOAP</span>
+                  </div>
+                </div>
+                <div class="experience-block">
+                  <h4><a href="https://www.opet.com.tr/" target="_blank" rel="noopener">Opet <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></h4>
+                  <p
+                    data-en="Supported Opet, one of Turkey's best-known fuel retail brands. Developed automated Nestlé integrations between APIs and the mobile application, including reward-system functionality, and contributed to development and server maintenance tasks."
+                    data-tr="Türkiye'nin en bilinen akaryakıt markalarından Opet'e destek verdim. API'ler ile mobil uygulama arasındaki otomatik Nestlé entegrasyonlarını ve ödül sistemi işlevlerini geliştirdim; geliştirme ve sunucu bakımı görevlerine katkı sağladım."
+                  >Supported Opet, one of Turkey's best-known fuel retail brands. Developed automated Nestlé integrations between APIs and the mobile application, including reward-system functionality, and contributed to development and server maintenance tasks.</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-meta">
+                <span>Jun 2021 — Aug 2022</span>
+                <span data-en="1 yr 3 mos" data-tr="1 yıl 3 ay">1 yr 3 mos</span>
+              </div>
+              <div class="timeline-content">
+                <div class="role-heading">
+                  <div>
+                    <h3>Faha Software</h3>
+                    <p data-en="Backend Developer" data-tr="Backend Geliştirici">Backend Developer</p>
+                  </div>
+                </div>
+                <p
+                  data-en="Worked on finance products including Hisse Sinyal and Borsa Aktif. Fully developed Fahax, a cryptocurrency application, and improved its WebSocket infrastructure. Helped projects progress against agreed goals through close coordination with teammates."
+                  data-tr="Hisse Sinyal ve Borsa Aktif gibi finans ürünlerinde çalıştım. Kripto para uygulaması Fahax'ı baştan sona geliştirdim ve WebSocket altyapısını iyileştirdim. Ekip arkadaşlarımla koordineli çalışarak projelerin belirlenen hedefler doğrultusunda ilerlemesini sağladım."
+                >Worked on finance products including Hisse Sinyal and Borsa Aktif. Fully developed Fahax, a cryptocurrency application, and improved its WebSocket infrastructure. Helped projects progress against agreed goals through close coordination with teammates.</p>
+                <p
+                  data-en="Applied CQRS, the Mediator pattern, Onion Architecture, and asynchronous programming to build clean, maintainable, and scalable systems. Applications were deployed on Windows Server. Other work included the Faha CRM, IYS integration, and API health checks."
+                  data-tr="Temiz, sürdürülebilir ve ölçeklenebilir sistemler için CQRS, Mediator deseni, Onion Architecture ve asenkron programlama yaklaşımlarını uyguladım. Uygulamalar Windows Server üzerinde yayınlandı. Faha CRM, İYS entegrasyonu ve uygulamalar için API sağlık kontrolleri de diğer çalışmalarım arasındaydı."
+                >Applied CQRS, the Mediator pattern, Onion Architecture, and asynchronous programming to build clean, maintainable, and scalable systems. Applications were deployed on Windows Server. Other work included the Faha CRM, IYS integration, and API health checks.</p>
+                <div class="tag-list" aria-label="Faha technologies">
+                  <span>SignalR</span><span>GitHub</span><span>Redis</span><span>Hangfire</span><span>Health Checks</span><span>Unit Testing</span><span>N-Tier</span><span>Docker</span><span>EF Core</span><span>MSSQL</span><span>Dapper</span><span>CQRS</span><span>Onion Architecture</span><span>Windows Server</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-meta">
+                <span>Mar 2020 — May 2021</span>
+                <span data-en="1 yr 3 mos" data-tr="1 yıl 3 ay">1 yr 3 mos</span>
+              </div>
+              <div class="timeline-content">
+                <div class="role-heading">
+                  <div>
+                    <h3>Tamly</h3>
+                    <p data-en="Backend Developer" data-tr="Backend Geliştirici">Backend Developer</p>
+                  </div>
+                </div>
+                <p
+                  data-en="Primarily developed Web APIs across two projects: MakasApp and its CRM. Built with N-Tier Architecture, EF Core, and FluentValidation."
+                  data-tr="Başlıca iki projede Web API geliştirdim: MakasApp ve uygulamanın CRM sistemi. N-Tier Architecture, EF Core ve FluentValidation kullandım."
+                >Primarily developed Web APIs across two projects: MakasApp and its CRM. Built with N-Tier Architecture, EF Core, and FluentValidation.</p>
+                <div class="tag-list"><span>Web API</span><span>N-Tier</span><span>EF Core</span><span>FluentValidation</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section container">
+        <div class="section-heading compact-heading">
+          <p class="section-kicker">03 — <span data-en="Toolkit" data-tr="Yetkinlikler">Toolkit</span></p>
+          <h2 data-en="Technologies I use to deliver." data-tr="Üretime değer katmak için kullandığım teknolojiler.">Technologies I use to deliver.</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-group">
+            <i class="fas fa-code" aria-hidden="true"></i>
+            <h3 data-en="Backend & data" data-tr="Backend ve veri">Backend & data</h3>
+            <p>.NET, RESTful API, EF Core, NHibernate, Dapper, MSSQL, Redis, SignalR, WebSocket, SOAP</p>
+          </article>
+          <article class="skill-group">
+            <i class="fas fa-sitemap" aria-hidden="true"></i>
+            <h3 data-en="Architecture" data-tr="Mimari">Architecture</h3>
+            <p>Microservices, CQRS, MediatR, Mediator Pattern, Onion Architecture, N-Tier Architecture, Asynchronous Programming</p>
+          </article>
+          <article class="skill-group">
+            <i class="fas fa-cloud" aria-hidden="true"></i>
+            <h3 data-en="Cloud & delivery" data-tr="Bulut ve teslim süreçleri">Cloud & delivery</h3>
+            <p>Azure DevOps, Azure Pipelines, Docker, CI/CD, AWS EC2, Jenkins, Windows Server, GitHub</p>
+          </article>
+          <article class="skill-group">
+            <i class="fas fa-shield-alt" aria-hidden="true"></i>
+            <h3 data-en="Quality & operations" data-tr="Kalite ve operasyon">Quality & operations</h3>
+            <p>xUnit, Moq, Unit Testing, Code Review, Clean Code, Secure Code, Health Checks, Hangfire, RabbitMQ, Elasticsearch</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section section-dark">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">04 — <span data-en="Projects" data-tr="Projeler">Projects</span></p>
+            <h2 data-en="Products I've helped bring to life." data-tr="Hayata geçmesine katkı sunduğum ürünler.">Products I've helped bring to life.</h2>
+            <p class="section-intro" data-en="A selection of enterprise, freelance, and personal work listed in my resume." data-tr="CV'mde yer alan kurumsal, freelance ve kişisel çalışmalardan bir seçki.">A selection of enterprise, freelance, and personal work listed in my resume.</p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card featured-card">
+              <div class="project-number">01</div>
+              <p class="project-type" data-en="Enterprise · Retail" data-tr="Kurumsal · Perakende">Enterprise · Retail</p>
+              <h3>IKEA</h3>
+              <p data-en="Contributed to the transition from a monolith to microservices and supported communication, quality, and delivery across the platform." data-tr="Monolitik yapıdan mikroservislere geçişe; platform genelinde iletişim, kalite ve teslim süreçlerine katkı sağladım.">Contributed to the transition from a monolith to microservices and supported communication, quality, and delivery across the platform.</p>
+              <a href="https://www.ikea.com.tr/" target="_blank" rel="noopener"><span data-en="Visit project" data-tr="Projeyi ziyaret et">Visit project</span><i class="fas fa-arrow-right"></i></a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-number">02</div>
+              <p class="project-type" data-en="Enterprise · Mobility" data-tr="Kurumsal · Mobilite">Enterprise · Mobility</p>
+              <h3>Opet</h3>
+              <p data-en="API-to-mobile integrations, Nestlé communication flows, reward functionality, development, and server maintenance for a major fuel-retail application." data-tr="Büyük bir akaryakıt uygulaması için API-mobil entegrasyonları, Nestlé iletişim akışları, ödül işlevleri, geliştirme ve sunucu bakımı.">API-to-mobile integrations, Nestlé communication flows, reward functionality, development, and server maintenance for a major fuel-retail application.</p>
+              <a href="https://apps.apple.com/tr/app/opet/id390624881?l=tr" target="_blank" rel="noopener"><span data-en="View on App Store" data-tr="App Store'da görüntüle">View on App Store</span><i class="fas fa-arrow-right"></i></a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-number">03</div>
+              <p class="project-type" data-en="Finance · Mobile" data-tr="Finans · Mobil">Finance · Mobile</p>
+              <h3>Hisse Sinyal</h3>
+              <p data-en="A Turkish stock-market application developed during my time at Faha Software." data-tr="Faha Software dönemimde geliştirilmesine katkı sunduğum Türkiye borsa uygulaması.">A Turkish stock-market application developed during my time at Faha Software.</p>
+              <a href="https://apps.apple.com/tr/app/hisse-sinyal/id1547821353?l=tr" target="_blank" rel="noopener"><span data-en="View on App Store" data-tr="App Store'da görüntüle">View on App Store</span><i class="fas fa-arrow-right"></i></a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-number">04</div>
+              <p class="project-type" data-en="E-commerce" data-tr="E-ticaret">E-commerce</p>
+              <h3>Westartic</h3>
+              <p data-en="An e-commerce project included among my selected web products." data-tr="Seçili web ürünlerim arasında yer alan bir e-ticaret projesi.">An e-commerce project included among my selected web products.</p>
+              <a href="https://westartic.com/" target="_blank" rel="noopener"><span data-en="Visit website" data-tr="Web sitesini ziyaret et">Visit website</span><i class="fas fa-arrow-right"></i></a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-number">05</div>
+              <p class="project-type" data-en="Career · Web" data-tr="Kariyer · Web">Career · Web</p>
+              <h3>Step By Cv</h3>
+              <p data-en="A web product focused on helping people build and improve their CVs." data-tr="Kullanıcıların CV oluşturmasına ve geliştirmesine odaklanan bir web ürünü.">A web product focused on helping people build and improve their CVs.</p>
+              <a href="https://stepbycv.com/" target="_blank" rel="noopener"><span data-en="Visit website" data-tr="Web sitesini ziyaret et">Visit website</span><i class="fas fa-arrow-right"></i></a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-number">06</div>
+              <p class="project-type" data-en="Maritime · Web" data-tr="Denizcilik · Web">Maritime · Web</p>
+              <h3>Amiral Service</h3>
+              <p data-en="A corporate service website listed among my delivered web projects." data-tr="Teslim ettiğim web projeleri arasında yer alan kurumsal hizmet sitesi.">A corporate service website listed among my delivered web projects.</p>
+              <a href="https://amiralservice.com.tr/tr" target="_blank" rel="noopener"><span data-en="Visit website" data-tr="Web sitesini ziyaret et">Visit website</span><i class="fas fa-arrow-right"></i></a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-number">07</div>
+              <p class="project-type" data-en="Wellness · Web" data-tr="Wellness · Web">Wellness · Web</p>
+              <h3>Melek Ozdemir Wellness</h3>
+              <p data-en="A wellness-focused web presence developed as part of my selected portfolio." data-tr="Seçili portföyüm kapsamında geliştirdiğim wellness odaklı bir web sitesi.">A wellness-focused web presence developed as part of my selected portfolio.</p>
+              <a href="https://melekozdemirwelness.com/" target="_blank" rel="noopener"><span data-en="Visit website" data-tr="Web sitesini ziyaret et">Visit website</span><i class="fas fa-arrow-right"></i></a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-number">08</div>
+              <p class="project-type" data-en="Studio · Web" data-tr="Stüdyo · Web">Studio · Web</p>
+              <h3>West Ware Studio</h3>
+              <p data-en="A studio website included in my portfolio of delivered web products." data-tr="Teslim ettiğim web ürünleri portföyünde yer alan bir stüdyo sitesi.">A studio website included in my portfolio of delivered web products.</p>
+              <a href="https://westwarestudio.com/" target="_blank" rel="noopener"><span data-en="Visit website" data-tr="Web sitesini ziyaret et">Visit website</span><i class="fas fa-arrow-right"></i></a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-number">09</div>
+              <p class="project-type" data-en="Mobility · Mobile" data-tr="Mobilite · Mobil">Mobility · Mobile</p>
+              <h3>Hergele App</h3>
+              <p data-en="A mobile application for locating, unlocking, and managing electronic scooters in Istanbul." data-tr="İstanbul'daki elektronik scooter'ları anlık olarak bulmayı, kilidini açmayı ve yönetmeyi sağlayan mobil uygulama.">A mobile application for locating, unlocking, and managing electronic scooters in Istanbul.</p>
+              <a href="https://apps.apple.com/us/app/hergele-app/id1518215426" target="_blank" rel="noopener"><span data-en="View on App Store" data-tr="App Store'da görüntüle">View on App Store</span><i class="fas fa-arrow-right"></i></a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-number">10</div>
+              <p class="project-type" data-en="Booking · Mobile" data-tr="Randevu · Mobil">Booking · Mobile</p>
+              <h3>MakasApp</h3>
+              <p data-en="An appointment application for haircuts and personal-care services, supported by a dedicated CRM project." data-tr="Saç kesimi ve kişisel bakım hizmetleri için randevu uygulaması; ayrıca uygulamaya özel CRM projesi.">An appointment application for haircuts and personal-care services, supported by a dedicated CRM project.</p>
+              <a href="https://apps.apple.com/tr/app/makasapp/id1551485159" target="_blank" rel="noopener"><span data-en="View on App Store" data-tr="App Store'da görüntüle">View on App Store</span><i class="fas fa-arrow-right"></i></a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-number">11</div>
+              <p class="project-type" data-en="Open source · Finance" data-tr="Açık kaynak · Finans">Open source · Finance</p>
+              <h3>Crypto Web App</h3>
+              <p data-en="An Angular and .NET 7 cryptocurrency web application built with SignalR for real-time communication." data-tr="Gerçek zamanlı iletişim için SignalR kullanan Angular ve .NET 7 tabanlı kripto para web uygulaması.">An Angular and .NET 7 cryptocurrency web application built with SignalR for real-time communication.</p>
+              <a href="https://github.com/YunusOzdemirr/crypto-project-net7-angular" target="_blank" rel="noopener"><span data-en="View on GitHub" data-tr="GitHub'da görüntüle">View on GitHub</span><i class="fas fa-arrow-right"></i></a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-number">12</div>
+              <p class="project-type" data-en="Open source · API" data-tr="Açık kaynak · API">Open source · API</p>
+              <h3>Video Upload API</h3>
+              <p data-en="A reusable API project designed for uploading video and image files." data-tr="Video ve görsel dosyalarının yüklenmesi için tasarlanmış, yeniden kullanılabilir API projesi.">A reusable API project designed for uploading video and image files.</p>
+              <a href="https://github.com/YunusOzdemirr/Video-Upload-Api" target="_blank" rel="noopener"><span data-en="View on GitHub" data-tr="GitHub'da görüntüle">View on GitHub</span><i class="fas fa-arrow-right"></i></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="freelance" class="section container">
+        <div class="section-heading compact-heading">
+          <p class="section-kicker">05 — <span data-en="Freelance" data-tr="Freelance">Freelance</span></p>
+          <h2 data-en="Independent collaborations." data-tr="Bağımsız iş birlikleri.">Independent collaborations.</h2>
+        </div>
+        <div class="freelance-grid">
+          <article>
+            <span>Webbilir · webbilir.com</span>
+            <h3 data-en="Backend Developer" data-tr="Backend Geliştirici">Backend Developer</h3>
+            <p data-en="Provided part-time backend support for CRM projects." data-tr="CRM projelerine yarı zamanlı backend desteği sağladım.">Provided part-time backend support for CRM projects.</p>
+          </article>
+          <article>
+            <span>Hergele Electronic Scooters · Hergele.co</span>
+            <h3 data-en="Backend Developer" data-tr="Backend Geliştirici">Backend Developer</h3>
+            <p data-en="Supported communication between electronic scooters and the server." data-tr="Elektronik scooter'lar ile sunucu arasındaki iletişime backend desteği sağladım.">Supported communication between electronic scooters and the server.</p>
+          </article>
+          <article>
+            <span>EsitCv · esitcv.com</span>
+            <h3 data-en="Backend Developer" data-tr="Backend Geliştirici">Backend Developer</h3>
+            <p data-en="Provided freelance backend development support." data-tr="Freelance backend geliştirme desteği sağladım.">Provided freelance backend development support.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="background" class="section section-tinted">
+        <div class="container background-grid">
+          <div>
+            <div class="section-heading small-heading">
+              <p class="section-kicker">06 — <span data-en="Education" data-tr="Eğitim">Education</span></p>
+              <h2 data-en="Background" data-tr="Geçmiş">Background</h2>
             </div>
+            <article class="education-card">
+              <span>Sep 2017 — Jun 2021</span>
+              <h3>Profilo Mesleki ve Teknik Anadolu Lisesi</h3>
+              <p data-en="High School · Database Programming, Istanbul" data-tr="Lise · Veritabanı Programlama, İstanbul">High School · Database Programming, Istanbul</p>
+            </article>
+            <div class="language-card">
+              <h3 data-en="Languages" data-tr="Diller">Languages</h3>
+              <div><span data-en="Turkish" data-tr="Türkçe">Turkish</span><strong data-en="Native" data-tr="Ana dil">Native</strong></div>
+              <div><span data-en="English" data-tr="İngilizce">English</span><strong data-en="B2 · Intermediate" data-tr="B2 · Orta seviye">B2 · Intermediate</strong></div>
+            </div>
+          </div>
 
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+          <div>
+            <div class="section-heading small-heading">
+              <p class="section-kicker">07 — <span data-en="References" data-tr="Referanslar">References</span></p>
+              <h2 data-en="People I've worked with." data-tr="Birlikte çalıştığım kişiler.">People I've worked with.</h2>
+            </div>
+            <div class="reference-list">
+              <article>
+                <a href="https://www.linkedin.com/in/yusuf-efe-azakl%C4%B1-75959b22a/" target="_blank" rel="noopener"><h3>Yusuf Efe Azaklı <i class="fas fa-external-link-alt"></i></h3></a>
+                <p data-en="Mid Backend Developer & Unity Game Developer · MagiClick" data-tr="Mid Backend Geliştirici ve Unity Oyun Geliştirici · MagiClick">Mid Backend Developer & Unity Game Developer · MagiClick</p>
+              </article>
+              <article>
+                <a href="https://www.linkedin.com/in/hilmi-berkay-ozdemir-b71650181/" target="_blank" rel="noopener"><h3>Hilmi Berkay Özdemir <i class="fas fa-external-link-alt"></i></h3></a>
+                <p data-en="Senior Frontend & Flutter Developer · SHIPLINK" data-tr="Kıdemli Frontend ve Flutter Geliştirici · SHIPLINK">Senior Frontend & Flutter Developer · SHIPLINK</p>
+              </article>
+              <article>
+                <h3>Alper Tunga</h3>
+                <p data-en="Udemy Instructor, Senior Backend Developer & CTO · Tamly" data-tr="Udemy Eğitmeni, Kıdemli Backend Geliştirici ve CTO · Tamly">Udemy Instructor, Senior Backend Developer & CTO · Tamly</p>
+              </article>
+              <p class="reference-note" data-en="Contact details are available upon request." data-tr="İletişim bilgileri talep üzerine paylaşılabilir.">Contact details are available upon request.</p>
             </div>
           </div>
         </div>
+      </section>
 
-        <!-- Project 2 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Project Two</h3>
-              <p>React, Redux, SASS</p>
-            </div>
-
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
+      <section id="contact" class="contact-section">
+        <div class="container contact-inner">
+          <p class="section-kicker">08 — <span data-en="Contact" data-tr="İletişim">Contact</span></p>
+          <h2 data-en="Let's build something dependable." data-tr="Birlikte güvenilir bir şeyler geliştirelim.">Let's build something dependable.</h2>
+          <p data-en="Have a backend challenge, a product idea, or simply want to talk technology? I'd be happy to hear from you." data-tr="Bir backend probleminiz, ürün fikriniz veya teknoloji üzerine konuşmak istediğiniz bir konu mu var? Sizden haber almaktan memnuniyet duyarım.">Have a backend challenge, a product idea, or simply want to talk technology? I'd be happy to hear from you.</p>
+          <a class="contact-email" href="mailto:yunusozdemir468@gmail.com">yunusozdemir468@gmail.com <i class="fas fa-arrow-right"></i></a>
+          <div class="contact-links">
+            <a href="tel:+905393186864"><i class="fas fa-phone-alt"></i> +90 539 318 68 64</a>
+            <a href="https://www.linkedin.com/in/yunus-ozdemir/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            <a href="https://github.com/YunusOzdemirr" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
           </div>
         </div>
-
-        <!-- Porject 3 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Project Three</h3>
-              <p>React, Redux, SASS</p>
-            </div>
-
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 4 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Project Four</h3>
-              <p>React, Redux, SASS</p>
-            </div>
-
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 5 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Project Five</h3>
-              <p>React, Redux, SASS</p>
-            </div>
-
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 6 -->
-        <div href="" class="card">
-          <div class="project-info">
-            <div class="project-bio">
-              <h3>Project Six</h3>
-              <p>React, Redux, SASS</p>
-            </div>
-
-            <div class="project-link">
-              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <a href="#" class="btn btn-secondary"
-        target="_blank" >See More <i class="fas fa-arrow-right"></i
-      ></a>
-    </section>
+      </section>
+    </main>
 
     <footer id="footer">
-      <div class="container">
-        <a href="mailto:communitypro47@gmail.com">communitypro47@gmail.com</a>
-        <!-- Social links -->
-        <div class="social">
-          <a href="#" target="_blank"
-            ><img src="./assets/facebook-icon.svg" alt="Facebook"
-          /></a>
-          <a href="#" target="_blank"><img src="./assets/twitter-icon.svg" alt="Twitter" /></a>
-          <a href="#" target="_blank"
-            ><img src="./assets/linkedin-icon.svg" alt="Linkedin"
-          /></a>
-          <a href="#" target="_blank"><img src="./assets/github-icon.svg" alt="GitHub" /></a>
-          <a href="#" target="_blank"
-            ><img src="./assets/hashnode-icon.svg" alt="Hashnode"
-          /></a>
-        </div>
-        <!-- Attribution -->
-        <div class="attribution">
-          <a
-            href="https://github.com/CommunityPro/portfolio-html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://user-images.githubusercontent.com/62628408/157202263-9174da24-b19a-4017-9b7c-a1d26ae8f014.svg"
-              alt="attribution"
-              width="150px"
-            />
-          </a>
-        </div>
-        <p>Copyright &copy; Communitypro <span id="datee"></span>, All rights reserved</p>
+      <div class="container footer-inner">
+        <a class="wordmark footer-wordmark" href="#hero"><span class="wordmark-mark">YÖ</span><span class="wordmark-name">Yunus Ozdemir</span></a>
+        <p><span>© <span id="datee"></span> Yunus Ozdemir.</span> <span data-en="All rights reserved." data-tr="Tüm hakları saklıdır.">All rights reserved.</span></p>
+        <a class="back-to-top" href="#hero"><span data-en="Back to top" data-tr="Başa dön">Back to top</span> <i class="fas fa-arrow-up"></i></a>
       </div>
     </footer>
+
     <script src="js/script.js"></script>
   </body>
 </html>

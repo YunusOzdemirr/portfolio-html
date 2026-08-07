@@ -1,0 +1,9 @@
+services:
+  portfolio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: yunus-portfolio
+    ports:
+      - "8000:80"
+    restart: unless-stopped
