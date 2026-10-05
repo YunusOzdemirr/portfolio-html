@@ -109,7 +109,6 @@ languageButtons.forEach((button) => {
 });
 
 const savedLanguage = localStorage.getItem("language");
-const browserLanguage = navigator.language.toLowerCase().startsWith("tr") ? "tr" : "en";
-applyLanguage(savedLanguage || browserLanguage);
+applyLanguage(savedLanguage || "en");
 
 document.querySelector("#datee").textContent = new Date().getFullYear();
